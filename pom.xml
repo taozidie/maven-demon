@@ -13,7 +13,7 @@
 		<jdk.version>1.7</jdk.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
-		<JUnit.version>4.1</JUnit.version>
+		<junit.version>4.0</junit.version>
 		<spring.version>3.2.4.RELEASE</spring.version>
 		<mybatis.version>3.2.4</mybatis.version>
 		<c3p0.version>0.9.1.2</c3p0.version>
@@ -65,11 +65,12 @@
 		<!-- log end -->
 
 		<!-- junit start -->
-		<dependency>
-			<groupId>JUnit</groupId>
-			<artifactId>JUnit</artifactId>
-			<version>${JUnit.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
 		<!-- junit end -->
 
 

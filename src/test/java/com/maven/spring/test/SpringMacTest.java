@@ -17,7 +17,7 @@ public class SpringMacTest extends BaseTest{
 		
 		List<Map<String, Object>> qeuryAllUser = userService.qeuryAllUser();
 		
-		System.out.println(qeuryAllUser);
+		System.out.println("result is ："+qeuryAllUser);
 	}
 }
 
